@@ -10,6 +10,7 @@ execute git clone git@github.com:anthub-services/create-react-app-boilerplate.gi
 
 execute cp $PWD/api/.env.dist $PWD/api/.env
 execute cp $PWD/client/.env.dist $PWD/client/.env
+execute cp -r $PWD/client/src/Config.dist $PWD/client/src/Config
 
 execute docker-compose build
 
